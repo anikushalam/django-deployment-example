@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative URL</title>
+</head>
+<body>
+    <h1>Welcome to relative URL Templates</h1>
+    <!-- In this use a url not a path -->
+    <a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a>
+    <a href="{% url 'admin:index' %}">Link to Admin</a>
+    <a href="{% url 'index' %}">Link To Index</a>
+</body>
+</html>
